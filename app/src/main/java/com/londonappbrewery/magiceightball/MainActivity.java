@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
                 Random randomNum = new Random();
 
-                int num = randomNum.nextInt(6);
+                int num = randomNum.nextInt(5);
 
             Log.d("Kugla", "Kugla br: " + num);
             ballImage.setImageResource(ballsArray[num]);
